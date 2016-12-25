@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2f97e71c35f3c81bc95f23a859582277",
-    "content-hash": "39571d6a136a2fe2befae049e32ef5f7",
+    "hash": "5d8a765f9bf1ade00174b7e0685a2fbc",
+    "content-hash": "7155a8d13a67c6fbed09f78321281070",
     "packages": [
         {
             "name": "automattic/jetpack",
@@ -430,6 +430,26 @@
                 "wp-sync-db"
             ],
             "time": "2016-03-07 16:34:12"
+        },
+        {
+            "name": "wpackagist-plugin/wpforms-lite",
+            "version": "1.3.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wpforms-lite/",
+                "reference": "tags/1.3.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpforms-lite.1.3.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wpforms-lite/"
         },
         {
             "name": "xrstf/composer-php52",
