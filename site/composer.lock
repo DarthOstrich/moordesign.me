@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "65147547a37a42b7d6ce88f0a4952c90",
-    "content-hash": "4894ffc6c955feecd1db1309e48dfa54",
+    "hash": "ca1a8ed05ab46649cf5fd9a3517e4207",
+    "content-hash": "0ec9ab4806b013fdfe511ec23530a0ed",
     "packages": [
         {
             "name": "automattic/jetpack",
@@ -432,6 +432,26 @@
             "time": "2016-03-07 16:34:12"
         },
         {
+            "name": "wpackagist-plugin/pirate-forms",
+            "version": "1.1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/pirate-forms/",
+                "reference": "tags/1.1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/pirate-forms.1.1.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/pirate-forms/"
+        },
+        {
             "name": "wpackagist-plugin/robo-gallery",
             "version": "2.5.9",
             "source": {
@@ -482,7 +502,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/so-css.1.1.2.zip",
-                "reference": null,
+                "reference": "tags/1.1.2",
                 "shasum": null
             },
             "require": {
