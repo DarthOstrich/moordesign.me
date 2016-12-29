@@ -433,7 +433,7 @@
         },
         {
             "name": "wpackagist-plugin/robo-gallery",
-            "version": "2.5.8",
+            "version": "2.5.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/robo-gallery/",
@@ -442,7 +442,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/robo-gallery.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
