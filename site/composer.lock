@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3afc8d962491c9a911ac9e7a37d1be58",
-    "content-hash": "8c7189270d8fbaf2b2f5721fd18f1038",
+    "hash": "65147547a37a42b7d6ce88f0a4952c90",
+    "content-hash": "4894ffc6c955feecd1db1309e48dfa54",
     "packages": [
         {
             "name": "automattic/jetpack",
@@ -472,6 +472,26 @@
             "homepage": "https://wordpress.org/plugins/siteorigin-panels/"
         },
         {
+            "name": "wpackagist-plugin/so-css",
+            "version": "1.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/so-css/",
+                "reference": "tags/1.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/so-css.1.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/so-css/"
+        },
+        {
             "name": "wpackagist-plugin/so-widgets-bundle",
             "version": "1.7.2",
             "source": {
@@ -482,7 +502,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.7.2.zip",
-                "reference": null,
+                "reference": "tags/1.7.2",
                 "shasum": null
             },
             "require": {
