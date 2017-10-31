@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9072c8004a64dc9dd6c399c51f782e2",
+    "content-hash": "41f2d1a29fb15c4ad50537487a5a0e36",
     "packages": [
         {
             "name": "automattic/jetpack",
@@ -574,6 +574,26 @@
             "homepage": "https://wordpress.org/plugins/so-widgets-bundle/"
         },
         {
+            "name": "wpackagist-plugin/worker",
+            "version": "4.2.25",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/worker/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/worker.zip?timestamp=1509042411",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/worker/"
+        },
+        {
             "name": "wpackagist-plugin/wp-google-fonts",
             "version": "v3.1.4",
             "source": {
@@ -584,7 +604,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-google-fonts.zip?timestamp=1459705341",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
